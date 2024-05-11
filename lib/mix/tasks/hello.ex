@@ -1,6 +1,7 @@
 defmodule Mix.Tasks.Hello do
   @moduledoc "The hello mix task: `mix help hello`"
   use Mix.Task
+  # * to run in cli `mix hello`
 
   @shortdoc "Simply calls the Hello.say/0 function."
   def run(_) do
